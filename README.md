@@ -25,11 +25,17 @@ Vtoolkit determine variable (V) regions from query sequences firstly and then ma
 
 ```shell
 # Usage: 
-python python/vtoolkit.py \
-  test/aa.fa \
-  test/result.csv 
+python/main.py \
+  examples/aa.fa \
+  examples/result.csv 
 
 ```
 
 ### Camel antibody classification: seperate heavy antibods from conventional antibodies
 
+```shell
+# Usage: 
+python/main.py \
+  examples/aa.fa \
+  examples/result.csv 
+```
