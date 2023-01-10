@@ -21,7 +21,9 @@ Vtoolkit determine variable (V) regions from query sequences firstly and then ma
 
 ## Usage
 
-#### Get variable region from protein sequences
+### Get variable region from protein sequences
+
+Use vtoolkit to identify variable regions from query sequences.
 
 ```shell
 # Usage: 
