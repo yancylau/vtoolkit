@@ -1,4 +1,5 @@
-# Toolkit for the annotation of variable region of antibody (vtoolkit)
+
+# Toolkit for the annotation of antibody variable region (vtoolkit)
 
 ## Introduction
 
@@ -7,9 +8,13 @@ Vtoolkit determine variable (V) regions from query sequences firstly and then ma
 
 ## Functions
 
+- Find V regions, and their subrgions, including FRs and CDRs
+- IMGT numbering
+- Determine V gene types
 
 
-## How vtools works
+
+## How vtoolkits works
 
 
 
