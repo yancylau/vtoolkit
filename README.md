@@ -25,5 +25,5 @@ python python/vtoolkit.py \
 
 ```
 
-### Antibody classification: seperate heavy antibods from conventional antibodies
+### Camel antibody classification: seperate heavy antibods from conventional antibodies
 
