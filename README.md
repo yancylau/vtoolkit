@@ -16,6 +16,9 @@ Vtoolkit determine variable (V) regions from query sequences firstly and then ma
 
 ## How vtoolkits works
 
+![figure1](figures/figure1.png)
+
+![figure1](https://github.com/yancylau/vtoolkit/tree/main/figures/figure1.png)
 
 
 ## Usage
