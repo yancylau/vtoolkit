@@ -42,4 +42,4 @@ python/main.py \
 
 
 ## Release Notes
-v1.0, 2013.1.10, original version
+v1.0, 2023.1.5, original version
