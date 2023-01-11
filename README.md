@@ -17,7 +17,7 @@ Vtoolkit determine variable (V) regions from query sequences firstly and then ma
   <img width="600"  src="figures/figure1.png">
 </p>
 
-### Variable detector
+### V (region) detector
 V detector was packed in vtoolkit to identify V regions of antibody heavy chain. It consists of 4 FR detectors, this are FR1/2/3/4 detector, which were fitted with Naive Bayes Classifier (scikit-learn 1.2.0). Initially, FRs were detected with FR1/2/3/4 detectors. After the detection of FRs, CDRs and the whole V region could be easily inferred from the query sequences (Figure 1). Then, vtoolkit will number V regions according to IMGT scheme.
 
 ### V gene classifier
