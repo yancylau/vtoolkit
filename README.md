@@ -25,7 +25,7 @@ In vtoolkit, V classifier was applied to determine the types of the V gene, whic
 
 
 ## Usage
-### Get V regions from query sequences (protein)
+### Identify V regions from antibodies (protein sequences)
 Use vtoolkit to identify variable regions from query sequences.
 ```shell
 python/main.py \
