@@ -33,7 +33,7 @@ python/main.py \
   examples/refs.annotated.csv 
 ```
 
-### camel V gene classification: separate VHHs from VHs
+### Camel V gene classification: separate VHHs from VHs
 ```shell
 python/main.py \
   examples/camel.faa \
