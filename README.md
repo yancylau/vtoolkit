@@ -25,7 +25,7 @@ In vtoolkit, V classifier was applied to determine the types of the V gene, whic
 
 
 ## Usage
-### Get variable region from protein sequences
+### Get V regions from query sequences (protein)
 Use vtoolkit to identify variable regions from query sequences.
 ```shell
 python/main.py \
@@ -33,7 +33,7 @@ python/main.py \
   examples/refs.annotated.csv 
 ```
 
-### Camel antibody classification: separate heavy chain antibodies from conventional antibodies
+### Camel antibody classification: separate VHHs from VHs
 ```shell
 python/main.py \
   examples/camel.faa \
