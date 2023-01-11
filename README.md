@@ -18,6 +18,11 @@ Vtoolkit determine variable (V) regions from query sequences firstly and then ma
 
 ![figure1](figures/figure1.png)
 
+<p align="center">
+  <img width="250"  src="figures/figure1.png">
+</p>
+
+
 
 ## Usage
 
