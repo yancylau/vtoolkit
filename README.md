@@ -1,13 +1,11 @@
-
-# Toolkit for the annotation of antibody variable region (vtoolkit)
+# vtoolkit: Toolkit for the annotation of antibody variable region
+Update: January 05, 2021 (Version 0.5.0)
 
 ## Introduction
-
 Vtoolkit determine variable (V) regions from query sequences firstly and then make numbering for V regions according to the IMGT unique numbering.  Based on the hallmarks sites located on FR2 sequence, Vtoolkit destinguish the HCAbs from conventional antibodis automaticlly.
 
 
 ## Functions
-
 - Find V regions, and their subrgions, including FRs and CDRs
 - IMGT numbering
 - Determine V gene types
@@ -15,9 +13,7 @@ Vtoolkit determine variable (V) regions from query sequences firstly and then ma
 
 
 ## How vtoolkits works
-
-![figure1](figures/figure1.png)
-
+# ![figure1](figures/figure1.png)
 <p align="center">
   <img width="250"  src="figures/figure1.png">
 </p>
@@ -27,11 +23,9 @@ Vtoolkit determine variable (V) regions from query sequences firstly and then ma
 ## Usage
 
 ### Get variable region from protein sequences
-
 Use vtoolkit to identify variable regions from query sequences.
 
 ```shell
-# Usage: 
 python/main.py \
   examples/aa.fa \
   examples/result.csv 
@@ -41,8 +35,9 @@ python/main.py \
 ### Camel antibody classification: seperate heavy antibods from conventional antibodies
 
 ```shell
-# Usage: 
 python/main.py \
   examples/aa.fa \
   examples/result.csv 
 ```
+
+
