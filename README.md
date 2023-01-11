@@ -13,9 +13,9 @@ Vtoolkit determine variable (V) regions from query sequences firstly and then ma
 
 
 ## How vtoolkits works
-# ![figure1](figures/figure1.png)
+
 <p align="center">
-  <img width="250"  src="figures/figure1.png">
+  <img width="600"  src="figures/figure1.png">
 </p>
 
 
