@@ -1,5 +1,5 @@
 # vtoolkit: Toolkit for the annotation of antibody variable region
-Update: January 05, 2021 (Version 0.5.0)
+Update: January 10, 2023 (Version 1.0)
 
 ## Introduction
 Vtoolkit determine variable (V) regions from query sequences firstly and then make numbering for V regions according to the IMGT unique numbering.  Based on the hallmarks sites located on FR2 sequence, Vtoolkit destinguish the HCAbs from conventional antibodis automaticlly.
