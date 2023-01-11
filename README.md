@@ -10,34 +10,27 @@ Vtoolkit determine variable (V) regions from query sequences firstly and then ma
 - IMGT numbering
 - Determine V gene types
 
-
-
-## How vtoolkits works
-
+## How vtoolkit works
 <p align="center">
   <img width="600"  src="figures/figure1.png">
 </p>
 
-
-
 ## Usage
-
 ### Get variable region from protein sequences
 Use vtoolkit to identify variable regions from query sequences.
-
 ```shell
 python/main.py \
-  examples/aa.fa \
-  examples/result.csv 
-
+  examples/refs.faa \
+  examples/refs.annotated.csv 
 ```
 
-### Camel antibody classification: seperate heavy antibods from conventional antibodies
-
+### Camel antibody classification: separate heavy chain antibodies from conventional antibodies
 ```shell
 python/main.py \
-  examples/aa.fa \
-  examples/result.csv 
+  examples/camel.faa \
+  examples/camel.annotated.csv 
 ```
 
 
+## RELEASE NOTES
+v1.0, 2013.1.10, original version
