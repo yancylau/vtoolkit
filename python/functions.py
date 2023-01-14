@@ -5,8 +5,7 @@ import pandas as pd
 
 
 
-
-# Function to translate protein to DNA
+# Function: Translate protein to DNA
 def translate(sequence):
     '''
     protein coding table:
@@ -88,9 +87,9 @@ def translate(sequence):
     return protein
 
 
+# Function: Translate coding sequences of all 3 frames and select the longest as the final protein
 def nt2aa(nt_seq):
     '''
-    Translate coding sequences of all 3 frames and select the longest as the final protein
     For the aa in each frame, extract the longest region without stop codon (between stop codon)
     '''
     # Tranlate coding sequnces in all 3 frames
@@ -102,9 +101,9 @@ def nt2aa(nt_seq):
     return(aa_seq)
 
 
+# Function: Split sequnce into subseqs
 def seq2matrix(seq, region_length):
     '''
-    Split sequnce into subseqs (length = FR_length)
     Arguments: 
         seq: aa sequence
         region_length: FR length
@@ -137,9 +136,9 @@ def seq2matrix(seq, region_length):
     return subseqs
 
 
+# Prepend gaps to the head
 def get_heads(seq, region_len):
     '''
-    Prepend gaps to the head
     Arguments:
       seq: query seq (str)
       region_len: FR region length (int)
@@ -155,9 +154,9 @@ def get_heads(seq, region_len):
     return(subseqs)
 
 
+# Append gaps to the tail
 def get_tails(seq, region_len):
     ''''
-    Append gaps to the tail
     Arguments:
       seq: query seq (str)
       region_len: RR region length (int)
@@ -171,7 +170,6 @@ def get_tails(seq, region_len):
         subseq = [aa for aa in subseq]
         subseqs.loc[i] = subseq
     return(subseqs)
-
 
 
 
