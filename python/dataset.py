@@ -1,4 +1,7 @@
-# Gererate training and test dataset for FR1/2/3/4 detectors and V classifier
+# Generate training and test dataset for FR1/2/3/4 detectors and V classifier
+
+# TODO:
+#  It is better to set negative dataset as non-IGHV sequences from refseq
 
 
 import pandas as pd
@@ -8,11 +11,11 @@ from dict import aas
 
 
 
-## 0. Read into IGHV sequence dataset
+## 0. Load IGHV sequence dataset
 v_seqs = pd.read_csv('data/v_reference_extend.csv')
 
 
-## 1. Gererate dataset for FR1/2/3 detector
+## 1. Generate dataset for FR1/2/3 detector
 # Positive dataset
 fr1_positive = v_seqs["FR1"].str.split('', expand=True).iloc[:, 1:27].replace({"X": None, ".": None, "-": None })
 fr2_positive = v_seqs["FR2"].str.split('', expand=True).iloc[:, 1:18].replace({"X": None, ".": None, "-": None })
@@ -23,7 +26,7 @@ fr3_positive[40] = "positive"
 
 # Negative dataset
 # TODO: non-IGHV sequences from refseq
-# letters = list(string.ascii_uppercase)
+# aas = list(string.ascii_uppercase)
 # aas = letters
 fr1_negative = pd.DataFrame(np.random.choice(aas, size=(10000, 26)), columns=list(range(1,27)))
 fr2_negative = pd.DataFrame(np.random.choice(aas, size=(10000, 17)), columns=list(range(1,18)))
